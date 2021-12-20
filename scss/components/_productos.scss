@@ -22,33 +22,58 @@
             border-radius: 0;
             width: 400px;
             height: 400px;
-        }
+            /*animacion*/
+            transition: transform 10s;
+            }
+    }
         .hijo-uno{
             grid-area: b;
+            &:hover{
+                transform: scale(1.15);
+            }
         }
         .hijo-dos{
             grid-area: c;
+            &:hover{
+                transform: scale(1.15);
+            }
         }
         .hijo-tres{
             grid-area: d;
+            &:hover{
+                transform: scale(1.15);
+            }
         }
         .hijo-cuatro{
             grid-area: e;
+            &:hover{
+                transform: scale(1.15);
+            }
         }
         .hijo-cinco{
             grid-area: f;
+            &:hover{
+                transform: scale(1.15);
+            }
         }
         .hijo-seis{
-            grid-area: g;
+            grid-area: g;&:hover{
+                transform: scale(1.15);
+            }
         }
         .hijo-siete{
-            grid-area: h;
+            grid-area: h;&:hover{
+                transform: scale(1.15);
+            }
         }
         .hijo-ocho{
-            grid-area: i;
+            grid-area: i;&:hover{
+                transform: scale(1.15);
+            }
         }
         .hijo-nueve{
-            grid-area: j;
+            grid-area: j;&:hover{
+                transform: scale(1.15);
+            }
         }
     }
-}

@@ -161,25 +161,54 @@ section .nosotrxs {
   .productos .grid-container img {
     border-radius: 0;
     width: 400px;
-    height: 400px; }
-  .productos .grid-container .hijo-uno {
-    grid-area: b; }
-  .productos .grid-container .hijo-dos {
-    grid-area: c; }
-  .productos .grid-container .hijo-tres {
-    grid-area: d; }
-  .productos .grid-container .hijo-cuatro {
-    grid-area: e; }
-  .productos .grid-container .hijo-cinco {
-    grid-area: f; }
-  .productos .grid-container .hijo-seis {
-    grid-area: g; }
-  .productos .grid-container .hijo-siete {
-    grid-area: h; }
-  .productos .grid-container .hijo-ocho {
-    grid-area: i; }
-  .productos .grid-container .hijo-nueve {
-    grid-area: j; }
+    height: 400px;
+    /*animacion*/
+    transition: transform 10s; }
+
+.productos .hijo-uno {
+  grid-area: b; }
+  .productos .hijo-uno:hover {
+    transform: scale(1.15); }
+
+.productos .hijo-dos {
+  grid-area: c; }
+  .productos .hijo-dos:hover {
+    transform: scale(1.15); }
+
+.productos .hijo-tres {
+  grid-area: d; }
+  .productos .hijo-tres:hover {
+    transform: scale(1.15); }
+
+.productos .hijo-cuatro {
+  grid-area: e; }
+  .productos .hijo-cuatro:hover {
+    transform: scale(1.15); }
+
+.productos .hijo-cinco {
+  grid-area: f; }
+  .productos .hijo-cinco:hover {
+    transform: scale(1.15); }
+
+.productos .hijo-seis {
+  grid-area: g; }
+  .productos .hijo-seis:hover {
+    transform: scale(1.15); }
+
+.productos .hijo-siete {
+  grid-area: h; }
+  .productos .hijo-siete:hover {
+    transform: scale(1.15); }
+
+.productos .hijo-ocho {
+  grid-area: i; }
+  .productos .hijo-ocho:hover {
+    transform: scale(1.15); }
+
+.productos .hijo-nueve {
+  grid-area: j; }
+  .productos .hijo-nueve:hover {
+    transform: scale(1.15); }
 
 footer {
   background-color: black;
