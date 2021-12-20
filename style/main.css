@@ -89,7 +89,25 @@ header div h1{
     color: #f0eee9;
     text-align: center;
     padding-top: 10px;
-    font-family: 'Homemade Apple', cursive;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.logo{
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+}
+
+.navbar .logo a img{
+    align-self: center;
 }
 
 section .ropa{
@@ -148,9 +166,9 @@ section .nosotrxs h2{
 
 section .nosotrxs p{
     text-align: center;
-    font-size: 150%;
-    margin: 2%;
-    font-family: 'Megrim', cursive;
+    font-size: 130%;
+    margin: auto;
+    font-family: 'JetBrains Mono', monospace;
 }
 
 .contactanos{
@@ -169,7 +187,7 @@ section .nosotrxs p{
 
 .contactanos div{
     color: black;
-    font-family: 'Homemade Apple', cursive;
+    font-family: 'JetBrains Mono', monospace;
     font-size: larger;
 }
 
@@ -267,7 +285,7 @@ footer p{
         background-color: #f0eee9;
         transition-duration: 500ms;
     }
-    
+
     header div{
         background-color: black;
         width: 100%;
@@ -310,8 +328,11 @@ footer p{
         margin-top: 1%;
         margin-bottom: 1%;
     }
-    
+
     section .ropa img{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         margin: 0 auto;
         width: 300px;
         height: auto;

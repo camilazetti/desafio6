@@ -1,0 +1,87 @@
+header{
+    .title-index{
+        position: relative;
+        background-color: black;
+        width: 100%;
+        height: calc(100vh - 50px);
+        display: flex;
+        flex-wrap: no wrap;
+        flex-direction: column;
+        background-image: url(../utils/title.png);
+        background-size: width 200px height 150px;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        z-index: -2;
+            h1{
+                color: #f0eee9;
+                text-align: center;
+                padding-top: 8%;
+                font-size: 80px;
+                font-family: 'Megrim', cursive; 
+            }
+            .subtitulo{
+                color: #f0eee9;
+                text-align: center;
+                padding-top: 10px;
+                font-family: 'JetBrains Mono', monospace;
+            }
+    }
+    nav{
+        background: linear-gradient(to right, black 200px, 30%, white);
+        height: 50px;
+        ul{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            list-style-type: none;
+            font-family: 'Homemade Apple', cursive;
+            .logo{
+                position: absolute;
+                left: 5px;
+                margin: 0;
+            }
+            li{
+                margin-right: 30px;
+                font-size: 1.3rem;
+                margin-top: 10px;
+                margin-left: 30px;
+                ul{
+                    position: absolute;
+                    top: -70px;
+                    transition-duration: 500ms;
+                    display: flex;
+                    flex-direction: column;
+                    width: 170px;
+                    height: 100px;
+                    transform: translateX(-55px);
+                    align-content: center;
+                    align-items: center;
+                    z-index: -1;
+                    background: white;
+                    li{
+                        margin-right: 0;
+                        a{
+                            color: black;
+                            padding-bottom: 15px;
+                            padding-right: 20px;
+                        }
+                    }
+                }
+                &:hover{
+                    ul{
+                        // transform: translate(0 35px);
+                        top: 52px;
+                    }
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                    img{
+                        width: 170px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
