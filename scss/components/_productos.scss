@@ -1,0 +1,54 @@
+.productos{
+    h2{
+        font-size: 180%;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-areas: 
+        "b c d"
+        "e f g"
+        "h i j";
+        grid-template-columns: 400px 400px 400px;
+        grid-template-rows: 400px 400px 400px;
+        row-gap: 2%;
+        column-gap: 2px;
+        justify-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-bottom: 7%;
+        img{
+            border-radius: 0;
+            width: 400px;
+            height: 400px;
+        }
+        .hijo-uno{
+            grid-area: b;
+        }
+        .hijo-dos{
+            grid-area: c;
+        }
+        .hijo-tres{
+            grid-area: d;
+        }
+        .hijo-cuatro{
+            grid-area: e;
+        }
+        .hijo-cinco{
+            grid-area: f;
+        }
+        .hijo-seis{
+            grid-area: g;
+        }
+        .hijo-siete{
+            grid-area: h;
+        }
+        .hijo-ocho{
+            grid-area: i;
+        }
+        .hijo-nueve{
+            grid-area: j;
+        }
+    }
+}

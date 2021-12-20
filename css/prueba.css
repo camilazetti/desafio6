@@ -142,6 +142,45 @@ section .nosotrxs {
     font-family: 'JetBrains Mono', monospace;
     font-size: 100%; }
 
+.productos h2 {
+  font-size: 180%;
+  margin-top: 5%;
+  margin-bottom: 3%; }
+
+.productos .grid-container {
+  display: grid;
+  grid-template-areas: "b c d" "e f g" "h i j";
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 400px 400px 400px;
+  row-gap: 2%;
+  column-gap: 2px;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 7%; }
+  .productos .grid-container img {
+    border-radius: 0;
+    width: 400px;
+    height: 400px; }
+  .productos .grid-container .hijo-uno {
+    grid-area: b; }
+  .productos .grid-container .hijo-dos {
+    grid-area: c; }
+  .productos .grid-container .hijo-tres {
+    grid-area: d; }
+  .productos .grid-container .hijo-cuatro {
+    grid-area: e; }
+  .productos .grid-container .hijo-cinco {
+    grid-area: f; }
+  .productos .grid-container .hijo-seis {
+    grid-area: g; }
+  .productos .grid-container .hijo-siete {
+    grid-area: h; }
+  .productos .grid-container .hijo-ocho {
+    grid-area: i; }
+  .productos .grid-container .hijo-nueve {
+    grid-area: j; }
+
 footer {
   background-color: black;
   width: 100%;
