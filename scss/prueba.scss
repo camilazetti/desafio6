@@ -1,8 +1,3 @@
-@import "./components/navbar.scss";
-@import "./components/main";
-@import "./components/productos";
-@import "./components/footer";
-
 *{
     margin: 0;
     padding: 0;
@@ -11,3 +6,9 @@
 body{
     background-color: white;
 }
+@import "./components/navbar.scss",
+        "./components/main",
+        "./components/productos",
+        "./components/footer",
+        "./components/mediaqueris",
+        "./components/icon-mobile";

@@ -1,79 +1,126 @@
 .productos{
     h2{
         font-size: 180%;
-        margin-top: 5%;
+        margin-top: 100px;
         margin-bottom: 3%;
     }
     .grid-container{
-        display: grid;
-        grid-template-areas: 
-        "b c d"
-        "e f g"
-        "h i j";
-        grid-template-columns: 400px 400px 400px;
-        grid-template-rows: 400px 400px 400px;
-        row-gap: 2%;
-        column-gap: 2px;
-        justify-items: center;
-        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
         justify-content: center;
-        margin-bottom: 7%;
+        transition-duration: 500ms;
+        max-width: 1500px;
+        margin: 0 auto 100px;
+        padding: 0;
         img{
             border-radius: 0;
             width: 400px;
             height: 400px;
             /*animacion*/
             transition: transform 10s;
+                @media screen and (max-width: 450px) {
+                    width: 100vw;
+                    height: auto;
+                }
             }
     }
         .hijo-uno{
-            grid-area: b;
+            transition-duration: 500ms;
             &:hover{
                 transform: scale(1.15);
+            }
+            @media screen and (max-width: 450px) {
+                &:hover{
+                    transform: none;
+                }
             }
         }
         .hijo-dos{
-            grid-area: c;
+            transition-duration: 500ms;
             &:hover{
                 transform: scale(1.15);
+            }
+            @media screen and (max-width: 450px) {
+                &:hover{
+                    transform: none;
+                }
             }
         }
         .hijo-tres{
-            grid-area: d;
+            transition-duration: 500ms;
             &:hover{
                 transform: scale(1.15);
+            }
+            @media screen and (max-width: 450px) {
+                &:hover{
+                    transform: none;
+                }
             }
         }
         .hijo-cuatro{
-            grid-area: e;
+            transition-duration: 500ms;
             &:hover{
                 transform: scale(1.15);
+            }
+            @media screen and (max-width: 450px) {
+                &:hover{
+                    transform: none;
+                }
             }
         }
         .hijo-cinco{
-            grid-area: f;
+            transition-duration: 500ms;
             &:hover{
                 transform: scale(1.15);
             }
+            @media screen and (max-width: 450px) {
+                &:hover{
+                    transform: none;
+                }
+            }
         }
         .hijo-seis{
-            grid-area: g;&:hover{
+            transition-duration: 500ms;
+            &:hover{
                 transform: scale(1.15);
+            }
+            @media screen and (max-width: 450px) {
+                &:hover{
+                    transform: none;
+                }
             }
         }
         .hijo-siete{
-            grid-area: h;&:hover{
+            transition-duration: 500ms;
+            &:hover{
                 transform: scale(1.15);
+            }
+            @media screen and (max-width: 450px) {
+                &:hover{
+                    transform: none;
+                }
             }
         }
         .hijo-ocho{
-            grid-area: i;&:hover{
+            transition-duration: 500ms;
+            &:hover{
                 transform: scale(1.15);
+            }
+            @media screen and (max-width: 450px) {
+                &:hover{
+                    transform: none;
+                }
             }
         }
         .hijo-nueve{
-            grid-area: j;&:hover{
+            transition-duration: 500ms;
+            &:hover{
                 transform: scale(1.15);
+            }
+            @media screen and (max-width: 450px) {
+                &:hover{
+                    transform: none;
+                }
             }
         }
     }
