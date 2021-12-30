@@ -1,0 +1,8 @@
+@mixin h2($align, $fontfamily, $color, $fontsize){
+    text-align: $align;
+    font-family: $fontfamily;
+    color: $color;
+    font-size: $fontsize;
+}
+
+$color: ("white", "black", #f0eee9);

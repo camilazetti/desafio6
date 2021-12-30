@@ -6,7 +6,8 @@
 body{
     background-color: white;
 }
-@import "./components/navbar.scss",
+@import "./abstractos/abstractos",
+        "./components/navbar.scss",
         "./components/main",
         "./components/productos",
         "./components/footer",

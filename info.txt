@@ -1,0 +1,4 @@
+Cree la carpeta abstractos donde hice: 
+un MIXIN que aplica para los h2, 
+
+Cree el MAP color para aplicar según la paleta de colores.
