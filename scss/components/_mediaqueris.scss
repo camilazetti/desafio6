@@ -109,10 +109,12 @@
                 width: 300px;
                 height: auto;
                 border-radius: 500px;    
+                z-index: -2;
             }
             h2{
                 font-size: 160%;
-                font-family: 'JetBrains Mono', 
+                font-family: 'JetBrains Mono';
+                z-index: -2;
             }
         
             .nosotrxs{

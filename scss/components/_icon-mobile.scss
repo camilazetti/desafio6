@@ -35,8 +35,7 @@
             height: 100vh;
       }
       .cbx:checked ~ .style-button label:nth-child(1) {
-                transform: rotate3d(0, 1, 1, 
-      426deg) translate(22px, 6px);
+                transform: rotate3d(0, 1, 1, 426deg) translate(22px, 6px);
       }
       .cbx:checked ~ .style-button label:nth-child(3) {
         transform: rotate3d(0, 1, 1, 292deg) translate(10px, -12px);
@@ -75,9 +74,11 @@
         text-align: center;
         font-size: 2.5rem;
         list-style: none;
+        font-family: 'Homemade Apple', cursive;
         cursor:pointer;
         img {
             width: 250px;
+            margin-top: 58px;
         }
       }
     @media screen and (max-width: 768px) {
