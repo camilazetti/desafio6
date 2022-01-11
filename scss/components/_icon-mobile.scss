@@ -1,88 +1,90 @@
 .icon-mobile {
-    display: none;
-    .icon-menu__items {
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-        width: 97vw;
-        height: 100vh;
+  display: none;
+  .icon-menu__items {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+  }
+  .hamburguer-button {
+      display: flex;
+      position: fixed;
+      z-index: 1;
     }
-    .hamburguer-button {
-        display: flex;
-        position: absolute;
-      }
-      .style-button {
-        display: flex;
-        flex-direction: column;
-        width: 50px;
-        height: 50px;
-        position: absolute;
-        left:9px;
-        top: -5px;
-        z-index: -1;
-      }
-      .cbx {
-        width: 50px;
-        height: 50px;
-        cursor: pointer;
-      }
-      .cbx:checked + nav {
-          transform: translate(0, 0px);
-      }
-      nav {
-            transition-duration: 500ms;
-            transform: translate(-114vw, 0px);
-            height: 100vh;
-      }
-      .cbx:checked ~ .style-button label:nth-child(1) {
-                transform: rotate3d(0, 1, 1, 426deg) translate(22px, 6px);
-      }
-      .cbx:checked ~ .style-button label:nth-child(3) {
-        transform: rotate3d(0, 1, 1, 292deg) translate(10px, -12px);
-      }
-      .cbx:checked ~ .style-button label:nth-child(2) {
-        opacity: 0;
-      }
-      label {
-        clip-path: inset(80% 0 0 0);
-        background: white;
-        width: 40px;
-        height:50px;
-        transition-duration: 500ms;
-      }
-      input[type="checkbox"] {
-        opacity: 0;
-      }
-      form {
-        position: fixed;
-        top: 0;
-        z-index: 2;
-      }
-      .icon-nav {
-        position: absolute;
-        background-color: #cecece;
-        z-index: -1;
-        background: none;
-      }
-      li:hover {
-        background-color: black;
-        color: white;
-      }
-      li {
-        transition-duration: 500ms;
-        padding-bottom: 30px;
-        text-align: center;
-        font-size: 2.5rem;
-        list-style: none;
-        font-family: 'Homemade Apple', cursive;
-        cursor:pointer;
-        img {
-            width: 250px;
-            margin-top: 58px;
-        }
-      }
-    @media screen and (max-width: 768px) {
-        display: inline;
-        position: relative;
+    .style-button {
+      display: flex;
+      flex-direction: column;
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      left:9px;
+      top: -5px;
+      z-index: -1;
     }
+    .cbx {
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
+    }
+    .cbx:checked + nav {
+        transform: translate(0, 0px);
+    }
+    nav {
+          transition-duration: 500ms;
+          transform: translate(-114vw, 0px);
+          height: 100vh;
+    }
+    .cbx:checked ~ .style-button label:nth-child(1) {
+              transform: rotate3d(0, 1, 1, 
+    426deg) translate(22px, 6px);
+    }
+    .cbx:checked ~ .style-button label:nth-child(3) {
+      transform: rotate3d(0, 1, 1, 292deg) translate(10px, -12px);
+    }
+    .cbx:checked ~ .style-button label:nth-child(2) {
+      opacity: 0;
+    }
+    label {
+      clip-path: inset(80% 0 0 0);
+      color: map-get($map: color, $key: #f0eee9); 
+      width: 40px;
+      height:50px;
+      transition-duration: 500ms;
+    }
+    input[type="checkbox"] {
+      opacity: 0;
+    }
+    form {
+      position: fixed;
+      top: 0;
+      z-index: 2;
+    }
+    .icon-nav {
+      position: absolute;
+      background-color: #cecece;
+      z-index: -1;
+      background: none;
+    }
+    li:hover {
+      background-color: black;
+      color: white;
+    }
+    li {
+      transition-duration: 500ms;
+      padding-bottom: 30px;
+      text-align: center;
+      font-size: 2.5rem;
+      list-style: none;
+      cursor:pointer;
+      margin: 0;
+      img {
+          width: 250px;
+      }
+    }
+  @media screen and (max-width: 768px) {
+      display: inline;
+      position: relative;
+  }
 }
+
