@@ -1,7 +1,9 @@
+@import "./abstractos/abstractos";
+
 header{
     .title-index{
         position: relative;
-        background-color: map-get($map: color, $key: black);
+        background-color: map-get($color, color1);
         width: 100%;
         height: calc(100vh - 50px);
         display: flex;
@@ -17,14 +19,14 @@ header{
             }
         z-index: -2;
             h1{
-                color: map-get(color, color2);
+                color: map-get($color, color2);
                 text-align: center;
                 padding-top: 8%;
                 font-size: 80px;
                 font-family: 'Megrim', cursive; 
             }
             .subtitulo{
-                color: map-get(color, color2);
+                color: map-get($color, color2);
                 text-align: center;
                 padding-top: 10px;
                 font-family: 'JetBrains Mono', monospace;
@@ -62,11 +64,11 @@ header{
                     align-content: center;
                     align-items: center;
                     z-index: -1;
-                    background: map-get(color, color);
+                    background: map-get($color, color0);
                     li{
                         margin-right: 0;
                         a{
-                            color: map-get(color, color1);
+                            color: map-get($color, color1);
                             padding-bottom: 15px;
                             padding-right: 20px;
                         }
@@ -94,7 +96,7 @@ header{
                 }
                 a{
                     text-decoration: none;
-                    color: map-get(color, color1);
+                    color: map-get($color, color1);
                     img{
                         width: 170px;
                         height: 50px;
