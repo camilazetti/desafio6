@@ -57,7 +57,7 @@
                             align-content: center;
                             align-items: center;
                             z-index: -1;
-                            background: map-get($color, color);
+                            background: map-get($color, color1);
                             li{
                                 margin-right: 0;
                                 a{
@@ -87,7 +87,7 @@
                             }
                         }
                         a{
-                            color: map-get($color, color);
+                            color: map-get($color, color1);
                         }
                     }
                 }

@@ -350,7 +350,7 @@ footer {
         align-content: center;
         align-items: center;
         z-index: -1;
-        background: white; }
+        background: black; }
         header nav ul li ul li {
           margin-right: 0; }
           header nav ul li ul li a {
@@ -370,7 +370,7 @@ footer {
     100% {
       z-index: 1; } }
       header nav ul li a {
-        color: white; }
+        color: black; }
   section .ropa {
     display: flex;
     flex-direction: column;
