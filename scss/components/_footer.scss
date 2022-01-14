@@ -1,5 +1,5 @@
 footer{
-    background-color: map-get($map: color, $key: black);
+    background-color: map-get(color, color);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@ footer{
     p{
         text-align: center;
         font-family: 'Megrim', cursive;
-        color: map-get($map: color, $key: white);
+        color: map-get(color, color2);
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: 20px;

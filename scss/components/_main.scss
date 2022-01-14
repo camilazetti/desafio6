@@ -41,7 +41,7 @@ section{
         width: 65%;
         margin-top: -1%;
         margin-left: 19%;
-        background-color: map-get($map: color, $key: black);
+        background-color: map-get(color, color1);
         box-shadow: 6px 4px 5px grey;
         h2{
             @include h2 (center, 'Homemade Apple', none, 200%);
@@ -49,7 +49,7 @@ section{
             /*text-align: center;
             font-size: 200%;
             font-family: 'Homemade Apple', cursive;*/
-            color: map-get($map: color, $key: #f0eee9);    
+            color: map-get(color, color2);    
         }
         div{
             text-align: center;
@@ -60,7 +60,7 @@ section{
             margin-bottom: 5%;
             font-size: 200%;
             font-family: 'JetBrains Mono';
-            color: map-get($map: color, $key: #f0eee9);
+            color: map-get(color, color2);
         }
     }
 }
@@ -81,10 +81,10 @@ section{
     div{
         p{
             margin-top: 1%;
-            color: map-get($map: color, $key: black);
+            color: map-get(color, color1);
             font-family: 'JetBrains Mono', monospace;
             font-size: 100%;
-        }
+        } 
     }
 }
 
